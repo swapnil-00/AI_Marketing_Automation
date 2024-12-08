@@ -1,0 +1,39 @@
+{
+    "data_paths": {
+        "campaigns": "data/campaigns.csv",
+        "historical_data": "data/historical_data.csv"
+    },
+    "optimization_rules": {
+        "pause_campaign": {
+            "ctr_threshold": 1.0,
+            "cpa_multiplier": 3
+        },
+        "increase_budget": {
+            "roas_threshold": 4.0,
+            "conversion_increase": 0.2
+        },
+        "decrease_budget": {
+            "roas_threshold": 1.5,
+            "consecutive_days": 5
+        }
+    },
+    "budget_rules": {
+        "increase_roas": 4.0,
+        "decrease_roas": 1.5,
+        "conversion_growth": 1.2
+    },
+    "pause_threshold": {
+        "ctr": 1.0,
+        "cpa_multiplier": 3
+    },
+    "target_cpa":25 ,
+    "logging": {
+        "log_file": "logs/marketing_automation.log",
+        "log_level": "INFO"
+    },
+    "reporting": {
+        "report_path": "reports/marketing_report.json",
+        "output_path": "reports/",
+        "log_level": "INFO"
+    }
+}

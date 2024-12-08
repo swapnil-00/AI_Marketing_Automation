@@ -1,0 +1,93 @@
+{
+    "timestamp": "2024-12-08T21:08:34.824668",
+    "total_campaigns": 10,
+    "campaign_actions": {
+        "pause_campaigns": [
+            {
+                "Campaign_ID": 1,
+                "Reason": "Low CTR or High CPA"
+            },
+            {
+                "Campaign_ID": 2,
+                "Reason": "Low CTR or High CPA"
+            },
+            {
+                "Campaign_ID": 4,
+                "Reason": "Low CTR or High CPA"
+            },
+            {
+                "Campaign_ID": 5,
+                "Reason": "Low CTR or High CPA"
+            },
+            {
+                "Campaign_ID": 6,
+                "Reason": "Low CTR or High CPA"
+            }
+        ],
+        "increase_budget": [
+            {
+                "Campaign_ID": 10,
+                "Reason": "High ROAS or Significant Conversion Growth"
+            }
+        ],
+        "decrease_budget": [
+            {
+                "Campaign_ID": 2,
+                "Reason": "Low ROAS"
+            },
+            {
+                "Campaign_ID": 6,
+                "Reason": "Low ROAS"
+            }
+        ],
+        "insights": [
+            {
+                "Campaign_ID": 1,
+                "Recommendation": "* **Improve Ad Creative:** A 0.8% CTR is very low.  Test variations of ad copy, images, and videos to increase click-through appeal.  A/B test aggressively.\n* **Refine Targeting:**  $2688 spent with only 19 conversions suggests poor targeting.  Analyze audience demographics and interests.  Exclude underperforming audiences.\n* **Optimize Keywords (if applicable):** Ensure keywords are highly relevant to ad copy and landing page.  Use negative keywords to filter out irrelevant searches.\n* **Landing Page Optimization:**  Ensure the landing page is directly related to the ad creative and offers a clear call to action.  Improve page speed and mobile responsiveness.\n* **Bid Adjustments:** Consider adjusting bids based on device, location, and time of day to maximize ROI for high-performing segments."
+            },
+            {
+                "Campaign_ID": 2,
+                "Recommendation": "* **Improve Ad Creative:** A 3.28% CTR isn't disastrous, but test variations focusing on stronger headlines, compelling visuals, and clear value propositions.  A/B test rigorously.\n* **Refine Targeting:**  $11,548 spent on only 5,860 impressions suggests overly broad targeting. Narrow targeting parameters (demographics, interests, keywords) to reach a more engaged audience.\n* **Optimize Landing Page:** Ensure the landing page directly relates to the ad copy and offers a seamless user experience.  A/B test landing page variations.\n* **Keyword Research:**  If using paid search, analyze keyword performance.  Identify high-performing keywords and drop underperforming ones.\n* **Bid Adjustments:**  Consider adjusting bids based on device, time of day, and location to maximize ROI."
+            },
+            {
+                "Campaign_ID": 2,
+                "Recommendation": "* **Improve Targeting:**  Refine audience targeting to reach users more likely to convert. Analyze which segments performed best and double down on those, removing underperforming ones.  Consider retargeting strategies.\n* **Optimize Ad Creative:** A 3.28% CTR isn't terrible, but improvements are possible. Test different ad copy, visuals, and calls-to-action to increase click-through rates. A/B testing is crucial here.\n* **Landing Page Optimization:** Ensure the landing page aligns perfectly with the ad copy and offers a seamless user experience leading to conversion.  Improve page speed and clarity.\n* **Keyword Research (if applicable):** If using paid search, review keyword strategy.  Focus on high-intent keywords with lower competition.\n* **Bid Adjustments:** Analyze which keywords, locations, or demographics are driving the highest CPA and adjust bids accordingly. Lower bids for underperforming segments."
+            },
+            {
+                "Campaign_ID": 4,
+                "Recommendation": "* **Improve Ad Creative:** A 3.68% CTR isn't terrible, but could be better.  Test variations focusing on stronger headlines, compelling visuals, and more concise calls-to-action. A/B test different creative sets.\n* **Refine Targeting:**  High spend with only 51 conversions points to inefficient targeting. Analyze audience demographics, interests, and behaviors to identify higher-converting segments.  Exclude underperforming audiences.\n* **Optimize Keywords (if applicable):** If using paid search, review keyword performance.  Pause underperforming keywords and focus on those with higher CTR and conversion rates.\n* **Landing Page Optimization:** Ensure the landing page matches the ad copy and offers a seamless user experience.  A/B test landing page elements to improve conversion rates.\n* **Consider Retargeting:** Implement retargeting campaigns to re-engage users who interacted with your ads but didn't convert."
+            },
+            {
+                "Campaign_ID": 5,
+                "Recommendation": "* **Improve Ad Creative:** A 4.82% CTR isn't terrible, but could be better.  Test variations of ad copy, imagery, and call-to-actions to increase click-throughs.  Focus on stronger value propositions.\n* **Refine Targeting:** $5104.14 spent with only 66 conversions indicates inefficient targeting. Analyze audience demographics and interests; exclude underperforming segments.  Consider retargeting website visitors.\n* **Optimize Landing Page:** Ensure the landing page aligns perfectly with ad messaging and offers a seamless user experience.  Reduce friction in the conversion process. A/B test landing page elements.\n* **Keyword Research & Bidding:**  Analyze keyword performance.  Pause underperforming keywords and increase bids on high-converting ones.  Explore long-tail keywords for more targeted traffic.\n* **Adjust Bidding Strategy:**  The high CPA suggests the current bidding strategy isn't optimal. Experiment with different bidding strategies (e.g., Target CPA, Maximize Conversions) to lower acquisition costs."
+            },
+            {
+                "Campaign_ID": 6,
+                "Recommendation": "* **Improve Ad Creative:** Test variations with stronger headlines, visuals, and calls to action.  A/B test different ad copy and image combinations.\n* **Refine Targeting:**  Analyze audience demographics and interests.  Exclude underperforming segments and focus on high-value audiences.\n* **Keyword Optimization:** Review keyword selection.  Ensure relevance to ad copy and landing page.  Consider negative keywords to reduce irrelevant clicks.\n* **Landing Page Optimization:**  Improve landing page experience.  Ensure clear value proposition, easy navigation, and fast loading speed.  A/B test landing page variations.\n* **Bid Adjustments:**  Adjust bidding strategies to focus on high-converting keywords and audiences.  Consider lowering bids on underperforming segments."
+            },
+            {
+                "Campaign_ID": 6,
+                "Recommendation": "* **Improve Targeting:**  Refine audience targeting to reach users more likely to convert. Analyze current targeting parameters and experiment with new ones.\n* **Optimize Ad Creative:** A 0.19% CTR suggests poor ad relevance or appeal. A/B test different ad copy, visuals, and calls-to-action.\n* **Landing Page Optimization:** Ensure the landing page is relevant to the ad copy and provides a seamless user experience to increase conversions.\n* **Keyword Research & Refinement:**  Review keywords; remove underperforming ones and add relevant, high-intent keywords.\n* **Reduce Spend:**  Temporarily reduce spending while implementing the above optimizations to avoid further losses.  Focus resources on the most promising segments."
+            },
+            {
+                "Campaign_ID": 10,
+                "Recommendation": "* **Improve Targeting:**  Refine audience targeting to reach users more likely to convert. Analyze conversion data to identify high-performing segments and exclude underperforming ones.\n* **A/B Test Ad Creatives:** Experiment with different ad copy, images, and calls-to-action to increase CTR. Focus on compelling messaging and strong visuals.\n* **Optimize Landing Page:** Ensure the landing page is relevant to the ad copy and offers a seamless user experience.  Reduce friction in the conversion funnel.\n* **Keyword Research (if applicable):** If using paid search, revisit keyword strategy. Focus on higher-converting, lower-competition keywords.\n* **Reduce Bid Amounts (carefully):** While ROAS is positive, cautiously decrease bids to lower CPA while maintaining sufficient impressions.  Monitor closely."
+            }
+        ]
+    },
+    "campaign_insights": {
+        "avg_conversions": 44.970000000000006,
+        "avg_roas": 1.887502,
+        "top_performing_campaigns": [
+            5,
+            3,
+            2
+        ]
+    },
+    "performance_summary": {
+        "total_spend": 48008.154,
+        "total_revenue": 109631.01,
+        "average_roas": 2.560836443235228,
+        "average_ctr": 0.02437038078772901
+    }
+}
