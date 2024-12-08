@@ -31,11 +31,6 @@ pip install -r requirements.txt
 python launcher.py
 ```
 
-## Testing
-```bash
-pytest tests/
-```
-
 ## Project Structure
 - `config/`: Configuration settings
 - `data/`: Input data files
