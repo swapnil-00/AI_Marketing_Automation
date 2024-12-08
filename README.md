@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ## Running the Project
 ```bash
-python main.py
+python launcher.py
 ```
 
 ## Testing
@@ -42,7 +42,6 @@ pytest tests/
 - `logs/`: Log files
 - `reports/`: Generated reports
 - `src/`: Core modules
-- `tests/`: Unit tests
 
 ## Key Modules
 - `data_loader.py`: Handles data ingestion
