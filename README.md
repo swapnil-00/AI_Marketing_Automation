@@ -38,6 +38,33 @@ python launcher.py
 - `reports/`: Generated reports
 - `src/`: Core modules
 
+- .
+├── config/
+│   └── settings.json
+├── data/
+│   ├── campaigns.csv
+│   ├── historical_data.csv
+│   ├── campaignsgeneration.py
+│   └── historical_datageneration.py
+├── logs/
+│   └── marketing_automation.log
+├── reports/
+│   └── marketing_report.json
+├── src/
+│   ├── app.py
+│   ├── launcher.py
+│   ├── main.py
+│   ├── action_executor.py
+│   ├── ai_decision_agent.py
+│   ├── data_loader.py
+│   ├── metrics_calculator.py
+│   ├── reporting.py
+│   └── _pycache/
+├── README.md
+├── requirements.txt
+└── .env
+
+
 ## Key Modules
 - `data_loader.py`: Handles data ingestion
 - `metrics_calculator.py`: Computes campaign performance metrics
