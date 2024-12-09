@@ -7,23 +7,23 @@ np.random.seed(42)
 # Generate sample data for campaigns
 campaigns = pd.DataFrame({
     'Campaign_ID': range(1, 11),
-    'Impressions': np.random.randint(5000, 50000, 10),  # Range for ad impressions
+    'Impressions': np.random.randint(5000, 50000, 10),  
 })
 
 # Calculate realistic CTR values
-ctr_values = np.random.uniform(0.001, 0.05, 10)  # CTR between 0.1% and 5%
+ctr_values = np.random.uniform(0.001, 0.05, 10)  
 clicks = campaigns['Impressions'] * ctr_values
-clicks = clicks + np.random.choice([0, 10, 20, -10], size=10)  # Adding noise
-campaigns['Clicks'] = clicks.clip(lower=0).astype(int)  # Ensure no negative clicks
+clicks = clicks + np.random.choice([0, 10, 20, -10], size=10)  
+campaigns['Clicks'] = clicks.clip(lower=0).astype(int)  
 
 # Add Conversions and Spend
-campaigns['Conversions'] = np.random.randint(5, 100, 10)  # Random conversions
-efficiency_factors = np.random.choice([0.5, 1.0, 2.0], size=10, p=[0.3, 0.5, 0.2])  # Efficiency categories
+campaigns['Conversions'] = np.random.randint(5, 100, 10)  
+efficiency_factors = np.random.choice([0.5, 1.0, 2.0], size=10, p=[0.3, 0.5, 0.2]) 
 campaigns['Spend'] = campaigns['Conversions'] * np.random.uniform(50, 200, 10) * efficiency_factors
 
 # Add Revenue with diversity
-campaigns['Revenue'] = campaigns['Conversions'] * np.random.uniform(50, 300, 10)  # Base revenue per conversion
-roi_factors = np.random.choice([0.5, 1.0, 2.0], size=10, p=[0.2, 0.6, 0.2])  # ROI categories
+campaigns['Revenue'] = campaigns['Conversions'] * np.random.uniform(50, 300, 10)  
+roi_factors = np.random.choice([0.5, 1.0, 2.0], size=10, p=[0.2, 0.6, 0.2])  
 campaigns['Revenue'] = campaigns['Revenue'] * roi_factors
 
 # Adjust Spend and Revenue for realism
