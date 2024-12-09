@@ -39,6 +39,7 @@ python launcher.py
 - `src/`: Core modules
 
 ```bash
+AI Marketing Automation/
 ├── config/
 │   └── settings.json
 ├── data/
