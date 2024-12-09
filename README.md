@@ -38,7 +38,7 @@ python launcher.py
 - `reports/`: Generated reports
 - `src/`: Core modules
 
-- .
+'''
 ├── config/
 │   └── settings.json
 ├── data/
@@ -63,7 +63,7 @@ python launcher.py
 ├── README.md
 ├── requirements.txt
 └── .env
-
+'''
 
 ## Key Modules
 - `data_loader.py`: Handles data ingestion
